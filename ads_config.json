@@ -1,0 +1,66 @@
+{
+  "ads_settings": {
+    "ads_enabled": true,
+    "test_mode": true,
+    "primary_ads": "admob",
+    "backup_ads": "applovin",
+    "test_device_ids": [
+      "ADD_YOUR_TEST_DEVICE_ID_HERE"
+    ],
+    "privacy_policy_url": "https://example.com/privacy-policy",
+    "ad_consent_enabled": true,
+    "native_interval": 5,
+    "protect_mode": true,
+    "mute_audio": true,
+    "show_adchoices": true
+  },
+  "capping_settings": {
+    "capping_time_hours": 24,
+    "app_open_limit": 10,
+    "banner_limit": 50,
+    "interstitial_limit": 15,
+    "native_limit": 20,
+    "native_fullscreen_limit": 10,
+    "reward_limit": 20
+  },
+  "admob": {
+    "live": {
+      "app_id": "ca-app-pub-xxxxxxxxxxxxxxxx~xxxxxxxxxx",
+      "app_open_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
+      "banner_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
+      "interstitial_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
+      "native_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
+      "native_fullscreen_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
+      "reward_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx"
+    },
+    "test": {
+      "app_id": "ca-app-pub-3940256099942544~3347511713",
+      "app_open_id": "ca-app-pub-3940256099942544/9257395921",
+      "banner_id": "ca-app-pub-3940256099942544/6300978111",
+      "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+      "native_id": "ca-app-pub-3940256099942544/2247696110",
+      "native_fullscreen_id": "ca-app-pub-3940256099942544/2247696110",
+      "reward_id": "ca-app-pub-3940256099942544/5224354917"
+    }
+  },
+  "applovin": {
+    "live": {
+      "sdk_key": "YOUR_LIVE_SDK_KEY",
+      "app_open_id": "YOUR_LIVE_ID",
+      "banner_id": "YOUR_LIVE_ID",
+      "interstitial_id": "YOUR_LIVE_ID",
+      "native_id": "YOUR_LIVE_ID",
+      "native_fullscreen_id": "YOUR_LIVE_ID",
+      "reward_id": "YOUR_LIVE_ID"
+    },
+    "test": {
+      "sdk_key": "YOUR_TEST_SDK_KEY",
+      "app_open_id": "YOUR_TEST_ID",
+      "banner_id": "YOUR_TEST_ID",
+      "interstitial_id": "YOUR_TEST_ID",
+      "native_id": "YOUR_TEST_ID",
+      "native_fullscreen_id": "YOUR_TEST_ID",
+      "reward_id": "YOUR_TEST_ID"
+    }
+  }
+}
